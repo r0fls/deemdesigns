@@ -1,0 +1,46 @@
+body{
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+div#header {
+    min-width: 100%;
+    height: 40px;
+    /* http://www.colorpicker.com/1B74F2 */
+    background: #F0F0F0;
+}
+#header:after{
+    clear:both;
+}
+.vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div#logo {
+    float: left;
+    color: #303030;
+    margin-left: 10px;
+}
+div#nav {
+    float: right;
+    color: #303030;
+    margin-right: 10px;
+}
+div#image {
+    display:inline-block;
+    background-size: cover;
+    background-image:url('../img/back.jpg');
+    width: 100%;
+    position:fixed !important;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index: -1;
+}
+#welcome {
+    margin:200px 30px;
+    text-align:center;
+    font-size:50px;
+    color:#F0F0F0;
+}
